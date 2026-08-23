@@ -627,18 +627,4 @@ Validation Accuracy : 95.42%
 ```
 
 The difference between training and validation performance also highlights the importance of monitoring generalization rather than relying solely on training accuracy.
-
----
-
-# Limitations
-
-The current implementation has several limitations:
-
-1. VGG16 is relatively large compared with newer lightweight architectures.
-2. The fine-tuned model shows a noticeable training-validation gap.
-3. The experiments use a fixed input resolution of 150 × 150.
-4. Hyperparameter tuning is limited.
-5. No dedicated test-set evaluation is included beyond the validation/test setup used in the notebooks.
-6. The feature extraction experiment was interrupted during training, so a directly comparable final accuracy should not be inferred from that notebook.
-
 ---
